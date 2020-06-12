@@ -6,6 +6,8 @@ max_wt = 7
 v = [[0 for j in range(max_wt+1)] for i in range(n)]
 
 def print_items(i, j):
+    
+    
     if i>0 and j>0 :
         if v[i][j] != v[i-1][j] :
             print(str(weight[i-1])+"\t\t\t"+str(value[i-1]))
